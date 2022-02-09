@@ -26,3 +26,45 @@ header .nav-item{
     color: #1A2236;
     font-style: normal;
 }
+
+/* Headline styles */
+
+.headline {
+    display: flex;
+    align-items: center;
+}
+.headline .image {
+    background-image: url('/images/desktop/headline-image.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-basis: 60%;
+    flex-grow: 0;
+    height: 95vh;
+    background-position: right;
+}
+.headline .content{
+    padding-left: 200px;
+    padding-right: 52px;
+    flex-basis: 40%;
+    flex-grow: 0;
+}
+.headline .content h1 {
+  font-family: 'Playfair Display',sans-serif;  
+  font-weight: 400;
+  font-size: 110px;
+  color: #1A2236;
+}
+.headline .content p{
+font-size: 14px;
+line-height: 21px;
+color: #1A2236;
+margin-top: 18px;
+}
+.headline .content button{
+    background-color: #1A2236;
+    border: 0;
+    color: #fff;
+    height: 54px;
+    width: 254px;
+    margin-top: 42px;
+}

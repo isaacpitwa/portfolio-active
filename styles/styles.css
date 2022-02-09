@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff;
+}
+header{
+    padding: 38px;
+    border-bottom: 1px solid #f4f4f4;
+}
+header nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header .nav-item{
+    padding: 0 25px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1A2236;
+    font-style: normal;
+}
+
+/* Headline styles */
+
+.headline {
+    display: flex;
+    align-items: center;
+}
+.headline .image {
+    background-image: url('/images/desktop/headline-image.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+    flex-grow: 0;
+    height: 100vh;
+}
+.headline .content{
+    padding-left: 160px;
+    padding-right: 100px;
+    padding-top: 120px;
+    flex-basis: 42%;
+    flex-grow: 0;
+    background-image: url('/images/image_dots.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 87vh;
+}
+.headline .content h1 {
+  font-family: 'Playfair Display',sans-serif;  
+  font-weight: 400;
+  font-size: 110px;
+  color: #1A2236;
+  line-height: 110px;
+
+}
+.headline .content p{
+font-size: 14px;
+line-height: 21px;
+color: #1A2236;
+margin-top: 64px;
+}
+.headline .content button{
+    background-color: #1A2236;
+    border: 0;
+    color: #fff;
+    height: 54px;
+    width: 254px;
+    margin-top: 28px;
+}

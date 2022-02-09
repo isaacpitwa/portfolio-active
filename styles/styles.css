@@ -44,7 +44,7 @@ header .nav-item{
 .headline .content{
     padding-left: 160px;
     padding-right: 100px;
-    padding-top: 100px;
+    padding-top: 120px;
     flex-basis: 42%;
     flex-grow: 0;
     background-image: url('/images/image_dots.svg');
@@ -64,7 +64,7 @@ header .nav-item{
 font-size: 14px;
 line-height: 21px;
 color: #1A2236;
-margin-top: 18px;
+margin-top: 64px;
 }
 .headline .content button{
     background-color: #1A2236;
@@ -72,5 +72,5 @@ margin-top: 18px;
     color: #fff;
     height: 54px;
     width: 254px;
-    margin-top: 42px;
+    margin-top: 28px;
 }

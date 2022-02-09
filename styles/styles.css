@@ -35,31 +35,36 @@ header .nav-item{
 }
 .headline .image {
     background-image: url('/images/desktop/headline-image.svg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    flex-basis: 60%;
+    flex-basis: 50%;
     flex-grow: 0;
-    height: 95vh;
-    background-position: right;
+    height: 100vh;
 }
 .headline .content{
-    padding-left: 200px;
-    padding-right: 52px;
-    flex-basis: 40%;
+    padding-left: 160px;
+    padding-right: 100px;
+    padding-top: 100px;
+    flex-basis: 42%;
     flex-grow: 0;
+    background-image: url('/images/image_dots.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 87vh;
 }
 .headline .content h1 {
   font-family: 'Playfair Display',sans-serif;  
   font-weight: 400;
   font-size: 110px;
   color: #1A2236;
+  line-height: 110px;
+
 }
 .headline .content p{
 font-size: 14px;
 line-height: 21px;
 color: #1A2236;
 margin-top: 18px;
-line-height: 110px;
 }
 .headline .content button{
     background-color: #1A2236;
